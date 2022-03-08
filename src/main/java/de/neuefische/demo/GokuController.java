@@ -12,7 +12,7 @@ public class GokuController {
 @GetMapping("/{name}")
 public String blast(@PathVariable String name) {
 
-return name + "KAAAAMEEEE " + "HAAAMEEEE" + "HAAAAAAA!!!!"; 
+return name + " KAAAAMEEEE " + "HAAAMEEEE" + "HAAAAAAA!!!!"; 
 
 }
 
